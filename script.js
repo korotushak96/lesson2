@@ -26,6 +26,26 @@ for (let i=0; i<2; i++){
     }
 }
 
+// while (let i<2){
+//     if (expense && expenseCost && expense.length<=50){
+//         appData.expenses = expenseCost;
+//     } else {
+//         alert('wrong answer');
+//         i=i-1;
+//     }
+//     i++;
+// }
+
+// do{
+//     let i = 0;
+//     if (expense && expenseCost && expense.length<=50){
+//         appData.expenses = expenseCost;
+//     } else {
+//         alert('wrong answer');
+//         i=i-1;
+//     }
+// } while(i<1)
+
 appData.moneyPerDay = appData.budget/30;
 alert (appData.moneyPerDay);
 if (appData.moneyPerDay<5){
